@@ -1,0 +1,114 @@
+body{
+    text-align: center;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(255, 142, 0);
+    color: white;
+    cursor: text;
+    border-bottom: 3px solid white;
+    line-height: 2.5;
+}
+h1,h4{
+   font-family: inherit;
+}
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: -42px;
+}
+h4{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+input{
+    color: white;
+}
+
+textarea{
+    color: white;
+}
+
+.fnome{
+    border: 0 none;
+    background-color: rgb(255, 142, 0);
+    width: 50%;
+    font-size: 20px;
+    cursor: text;
+    border-bottom: 3px solid white;
+    line-height: 2.5;
+    background-image: url(/Fotos/iconeP.jpg);
+}
+.fnome:hover{
+    background-color: rgb(255, 158, 35);
+}
+.fnome::placeholder{
+    color: white;
+}
+
+.femail{
+    border: 0 none;
+    background-color: rgb(255, 142, 0);
+    width: 50%;
+    font-size: 20px;
+    cursor: text;
+    border-bottom: 3px solid white;
+    line-height: 2.5;
+    background-image: url(/Fotos/email.jpg);
+}
+.femail:hover{
+    background-color: rgb(255, 158, 35);
+}
+.femail::placeholder{
+    color: white;
+}
+
+.ftelefone{
+    border: 0 none;
+    background-color: rgb(255, 142, 0);
+    width: 50%;
+    font-size: 20px;
+    cursor: text;
+    border-bottom: 3px solid white;
+    line-height: 2.5;
+    background-image: url(/Fotos/telefone.jpg);
+}
+.ftelefone:hover{
+    background-color: rgb(255, 158, 35);
+}
+.ftelefone::placeholder{
+    color: white;
+}
+
+.fmensagem{
+    border: 0 none;
+    background-color: rgb(255, 142, 0);
+    width: 50%;
+    font-size: 20px;
+    cursor: text;
+    border-bottom: 3px solid white;
+    background-image: url(/Fotos/mensagem.jpg);
+}
+.fmensagem:hover{
+    background-color: rgb(255, 158, 35);
+}
+.fmensagem::placeholder{
+    color: white;
+}
+button{
+    margin-top: 42px;
+    background-color: rgb(255, 142, 0);;
+    width: 653px;
+    height: 67px;
+    border-radius: 19px;
+    border: 3px solid white;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+button:hover{
+   background-color: rgb(255, 158, 35);
+}
+.frobo{
+    display: none;
+}
